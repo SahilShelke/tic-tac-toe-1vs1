@@ -1,18 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Poppins", sans-serif;;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
-    background: linear-gradient(to bottom right, #4facfe, #00f2fe);
+    background-color: #F2F4F4;
+    /*background: linear-gradient(to bottom right, #4facfe, #00f2fe);*/
 }
 
 .container {
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: #fff;
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 
 .board {
@@ -26,18 +28,20 @@ body {
     width: 100px;
     height: 100px;
     background-color: #fff;
-    border: 1px solid #999;
+    border: 2px solid #566573;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 40px;
     cursor: pointer;
+    border-radius: 8px
 }
 
 .status {
     font-size: 24px;
     font-weight: bold;
     margin-bottom: 20px;
+    color: #273746;
 }
 
 .result-screen {
